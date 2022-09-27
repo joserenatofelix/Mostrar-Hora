@@ -1,20 +1,25 @@
 body {
-    color: rgb(107, 107, 241);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
+
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
 }
 
 header {
     color: rgb(244, 248, 12);
-    margin-top: 2%;
+    margin-top: 2px;
     text-align: center;
-}
-
-section {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 15px;
-    width: 350px;
-    margin: auto;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.363);
 }
 
 div {
