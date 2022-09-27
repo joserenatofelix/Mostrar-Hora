@@ -3,21 +3,28 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-6        msg.innerHTML = `Agora são ${hora} horas.`
+    var min = data.getMinutes()
+    msg.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 0 && hora < 12) {
         //BOM DIA!
         img.src='Imagens/fotomanha.png'
         document.body.style.background = '#F79948'
+        msg.innerHTML = `Bom dia <br> Agora são ${hora} horas e ${min} minutos.`
+
     } else if ( hora >= 12 && hora < 18) {
        //BOA TARDE!
        img.src='Imagens/fototarde.png'
        document.body.style.background = '#89BAF0'
+       msg.innerHTML = `Boa tarde <br> Agora são ${hora} horas e ${min} minutos.`
+
     } else {
        //BOA NOITE!
        img.src='Imagens/fotonoite.png'
        document.body.style.background = '#201EF0'
+       msg.innerHTML = `Boa noite <br> Agora são ${hora} horas e ${min} minutos.`
     }
-} 
+}
+ 
 function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
