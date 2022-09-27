@@ -11,8 +11,7 @@ Projeto, bem simples mas muito intuitivo que mostra a hora online e na parte de 
 
 ## Apresentação
 
-<video controls="controls" src="https://user-images.githubusercontent.com/93296913/192342353-53b72147-e8f9-42bf-8dc3-6dc08d06af91.mp4">
-</video>
+
 
 ## Você pode testar o projeto, acessando o link abaixo
 
