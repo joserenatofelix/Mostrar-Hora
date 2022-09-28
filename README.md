@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/93296913/192559873-2c3235eb-bb9c-4c9f-
 
 ## Você pode testar o projeto, acessando o link abaixo
 
-https://mostrar-hora-i5ap.vercel.app/
+https://joserenatofelix.github.io/Mostrar-Hora/
 
 ## Autor
  José Renato Felix da Silva
